@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: darkblue;
+  position: fixed;
+  top: 0;
+  z-index: 30;
+}
+.picture{
+  width:40px;
+  height:40px;
+  margin:10px;
+  float:left;
+}
+
+h2 {
+  font-size:32px;
+  margin-top: 10px;
+  margin-left:10px;
+  color:white;
+  float:right;
+}
+
+.webname{
+  float: left;
+}
+
+.headlist{
+  float: right;
+  margin-right: -25px;
+
+}
+
+.headlist a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.headlist a:hover {
+  background-color: blue;
+}
+
+.main{
+  background-image: url(https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/10/How-to-become-a-Full-Stack-Web-Developer--768x511.png);
+  margin : 100px 0 100px 0;
+  height:500px;
+  background-size: cover;
+  color: black;
+  text-align: center;
+
+}
+
+.main h3 {
+  padding-top:160px;
+  margin-bottom: 10px;
+}
+
+.main h6{
+  background-color: white;
+  font-size:28px;
+  margin-bottom:3px;
+  opacity:0.8;
+}
+
+.links{
+
+  background-image: url(https://www.colourbox.com/preview/23310840-line-coding-white-seamless-pattern.jpg);
+  background-size: cover;
+  height:500px;
+  text-align: center;
+}
+
+.links h4{
+  padding-top:100px;
+}
+
+.links  h6{
+  margin-left: 180px;
+  margin-right: 180px;
+  background-color: white;
+  font-size:28px;
+  margin-bottom:3px;
+  opacity:0.8;
+
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 40px 0;
+  float:left;
+}
+
+
+.learn {
+
+  padding: 10px 35px;
+  background-color: #5dca88;;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940 ;
+  font-size:24px;
+  color:white;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.signup{
+  padding: 10px 35px;
+  margin-left: 500px;
+  background-color: #239b76;
+   cursor: pointer;
+
+  font-size:24px;
+  color:white;
+  border-radius: 4px;
+
+
+}
+
+.learn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+
+
+footer {
+  height: 65px;
+  width: 100%;
+  background-color: #3b5998;
+
+
+  top: 0;
+
+}
+.picfooter{
+  width:40px;
+  height:40px;
+  margin:10px;
+  float:left;
+}
+
+ .txt {
+   padding-top: 20px;
+  font-size:16px;
+  margin-top: 10px;
+  margin-left:10px;
+  color:white;
+  float:right;
+}
+
+.caption{
+  float: left;
+}
+
+ .modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.0);
+  z-index: 100;
+  display:none;
+}
+
+.modal {
+  position: absolute;
+  top: 24%;
+  left: 0%;
+  background-color: #e6ecf0;
+  padding: 20px 0 30px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+.fa-times:hover {
+  color: #8491a5;
+  background-color: #ccd9ea;
+  transition: 0.3s ease-in-out;
+}
+
+#signup-form {
+  width: 100%;
+}
+#signup-form h2 {
+  color: #5f5d60;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right:100px;
+
+}
+
+#signup-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: #5dca88;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.linkbutton{
+  margin-left:60px;
+  margin-right:20px;
+}
+
+.linkbutton2{
+  margin-left: 30px;
+}
